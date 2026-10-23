@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar Senha - NextSpace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+
+            <div class="icone">🔐</div>
+
+            <h1>Esqueceu a senha?</h1>
+
+            <p class="subtitulo">
+                Não se preocupe! Acontece com todo mundo.
+                Digite seu e-mail para começar a recuperação.
+            </p>
+
+            <form onsubmit="event.preventDefault(); alert('Solicitação enviada! Para recuperar sua senha de verdade, é necessário configurar um sistema de envio de e-mails.');">
+
+                <label for="email">Seu e-mail</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="exemplo@email.com"
+                    required
+                >
+
+                <button type="submit">Recuperar senha ✨</button>
+
+            </form>
+
+            <a class="voltar" href="login.html">← Voltar para o login</a>
+
+            <p class="rodape">🔒 Sua segurança é nossa prioridade.</p>
+
+        </div>
+    </div>
+
+</body>
+</html>
